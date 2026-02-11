@@ -61,7 +61,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 ),
 [_UPPER] = LAYOUT(
 //--- begin of auto align
-  _______,  _______,     MS_BTN5,  MS_BTN4,  MS_WHLL,  MS_WHLR,                           KC_STOGGLE,  KC_PDF_0,       KC_PDF_L,       KC_PDF_U,       KC_PDF_A,  _______,
+  _______,  _______,     MS_BTN4,  MS_BTN5,  MS_WHLL,  MS_WHLR,                           KC_STOGGLE,  KC_PDF_0,       KC_PDF_L,       KC_PDF_U,       KC_PDF_A,  _______,
   _______,  C(KC_BSPC),  MS_BTN3,  MS_BTN2,  MS_BTN1,  MS_WHLU,                           KC_PGUP,     KC_PRVWD,       KC_SUP,         KC_NXTWD,       KC_HOME,   _______,
   _______,  KC_DEL,      KC_BSPC,  KC_PEQL,  KC_SPC,   MS_WHLD,                           KC_PGDN,     KC_SLEFT,       KC_SDOWN,       KC_SRIGHT,      KC_END,    OSM(MOD_LGUI),
   _______,  C(KC_Z),     C(KC_X),  C(KC_C),  C(KC_V),  LGUI(KC_SPC),  _______,  _______,  KC_ENT,      OSM(MOD_LSFT),  OSM(MOD_LCTL),  OSM(MOD_LALT),  _______,   _______,
@@ -71,7 +71,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [_ADJUST] = LAYOUT(
 //--- begin of auto align
   _______,  _______,     _______,  _______,  _______,  _______,                           _______,     _______,        _______,        _______,        _______,   _______,
-  _______,  _______,     _______,  _______,  _______,  _______,                           _______,     MS_BTN5,        MS_UP,          MS_BTN4,        _______,   _______,
+  _______,  _______,     _______,  _______,  _______,  _______,                           _______,     MS_BTN4,        MS_UP,          MS_BTN5,        _______,   _______,
   _______,  _______,     _______,  _______,  _______,  _______,                           _______,     MS_LEFT,        MS_DOWN,        MS_RGHT,        _______,   _______,
   _______,  _______,     _______,  _______,  _______,  _______,       _______,  _______,  _______,     _______,        _______,        _______,        _______,   _______,
                          _______,  _______,  _______,  _______,       _______,  _______,  _______,     _______,        _______,        _______
