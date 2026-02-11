@@ -53,16 +53,18 @@ oled_rotation_t oled_init_kb(oled_rotation_t rotation) {
 }
 
 static void render_not_master(void) {
-    oled_write_P(PSTR("\n\n"), false);
-    oled_write_P(PSTR("WPM:\n"), false);
-    uint8_t wmp = get_current_wpm();
-    char wmp_str[4] = {
-        '0' + (((wmp / 10) / 10) % 10),
-        '0' + ((wmp / 10) % 10),
-        '0' + (wmp % 10),
-        0,
-    };
-    oled_write_P(PSTR(wmp_str), false);
+    // oled_write_P(PSTR("\n\n"), false);
+    // oled_write_P(PSTR("WPM:\n"), false);
+    // // uint8_t wmp = get_current_wpm();
+    // static uint8_t wmp = 0;
+    // wmp++;
+    // char wmp_str[4] = {
+    //     '0' + (((wmp / 10) / 10) % 10),
+    //     '0' + ((wmp / 10) % 10),
+    //     '0' + (wmp % 10),
+    //     0,
+    // };
+    // oled_write(wmp_str, false);
 }
 
 void render_master(void) {
